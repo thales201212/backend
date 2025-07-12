@@ -14,8 +14,8 @@
     "LanuncherInfo": {
         "DownloadPath": "https://thales201212.github.io/backend//Launcher/",
         "CurrentVersion": 310,
-        "ExeFileName": "dho",
-        "RunExeFileName": "dho",
+        "ExeFileName": "DmLauncher",
+        "RunExeFileName": "DmLauncher",
         "VersionList": [
             {
                 "Version": 310,
