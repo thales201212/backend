@@ -2,8 +2,8 @@
     "ServerInfo": {
         "Maintenance": false,
         "Message": {
-            "Title": "Neon Digiverse Online.",
-            "Msg": "The server is undergoing inspection or updates.\nConnect to <https://discord.gg/vtNnzfSF for more information."
+            "Title": "Digital History Online.",
+            "Msg": "The server is undergoing inspection or updates.\nConnect to <https://discord.gg/EV5pfSGF for more information."
         }
     },
     "PatchInfo": {
@@ -14,8 +14,8 @@
     "LanuncherInfo": {
         "DownloadPath": "https://thales201212.github.io/backend//Launcher/",
         "CurrentVersion": 310,
-        "ExeFileName": "Montanten",
-        "RunExeFileName": "Montanten",
+        "ExeFileName": "dho",
+        "RunExeFileName": "dho",
         "VersionList": [
             {
                 "Version": 310,
@@ -75,7 +75,7 @@
         "DownloadPath": "https://thales201212.github.io/backend//UpdateManager/",
         "CurrentVersion": 8,
         "ExeFileName": "UpdateManager.exe",
-        "RunExeFileName": "Neon Digiverse.exe",
+        "RunExeFileName": "dho.exe",
         "VersionList": [
             {
                 "Version": 8,
@@ -107,11 +107,11 @@
     "MainUrl": [
         {
             "TypeName": "GSP",
-            "HomePageUrl": "https://discord.gg/vtNnzfSF",
+            "HomePageUrl": "https://discord.gg/EV5pfSGF",
             "GameDownloadUrl": "https://discord.gg/vtNnzfSF",
             "MainPageUrl": "https://thales201212.github.io/backend//main.html",
             "BanerUrl": "https://thales201212.github.io/backend/banner.html",
-            "ClientIP": "127.0.0.1",
+            "ClientIP": "144.217.123.20",
             "ClientPort": "7605",
             "Unlock": false
 
