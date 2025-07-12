@@ -1,120 +1,77 @@
 {
-    "ServerInfo": {
-        "Maintenance": false,
-        "Message": {
-            "Title": "Digital History Online.",
-            "Msg": "The server is undergoing inspection or updates.\nConnect to <https://discord.gg/EV5pfSGF for more information."
-        }
-    },
-    "PatchInfo": {
-        "DownloadUrl": "https://thales201212.github.io/backend//UpdatePatch/",
-        "MinPatchVersion": 1,
-        "PatchVersion": 2
-    },
-    "LanuncherInfo": {
-        "DownloadPath": "https://thales201212.github.io/backend//Launcher/",
-        "CurrentVersion": 310,
-        "ExeFileName": "dho",
-        "RunExeFileName": "dho",
-        "VersionList": [
-            {
-                "Version": 310,
-                "DownloadFile": "Launcher_310.zip"
-            },
-            {
-                "Version": 311,
-                "DownloadFile": "Launcher_311.zip"
-            },
-            {
-                "Version": 312,
-                "DownloadFile": "Launcher_312.zip"
-            },
-            {
-                "Version": 313,
-                "DownloadFile": "Launcher_313.zip"
-            },
-            {
-                "Version": 314,
-                "DownloadFile": "Launcher_314.zip"
-            },
-            {
-                "Version": 315,
-                "DownloadFile": "Launcher_315.zip"
-            },
-            {
-                "Version": 316,
-                "DownloadFile": "Launcher_316.zip"
-            },
-            {
-                "Version": 317,
-                "DownloadFile": "Launcher_317.zip"
-            },
-            {
-                "Version": 318,
-                "DownloadFile": "Launcher_318.zip"
-            },
-            {
-                "Version": 319,
-                "DownloadFile": "Launcher_319.zip"
-            },
-            {
-                "Version": 320,
-                "DownloadFile": "Launcher_320.zip"
-            },
-            {
-                "Version": 321,
-                "DownloadFile": "Launcher_321.zip"
-            },
-            {
-                "Version": 322,
-                "DownloadFile": "Launcher_322.zip"
-            }
-        ]
-    },
-    "UMInfo": {
-        "DownloadPath": "https://thales201212.github.io/backend//UpdateManager/",
-        "CurrentVersion": 8,
-        "ExeFileName": "UpdateManager.exe",
-        "RunExeFileName": "dho.exe",
-        "VersionList": [
-            {
-                "Version": 8,
-                "DownloadFile": "UM_8.zip"
-            },
-            {
-                "Version": 9,
-                "DownloadFile": "UM_9.zip"
-            },
-            {
-                "Version": 10,
-                "DownloadFile": "UM_10.zip"
-            }
-        ]
-    },
-    "Redist": {
-        "Execute": "vcredist_x86.exe",
-        "Command": "/install /passive /norestart",
-        "Registry": [
-            {
-                "Reg": "SOFTWARE\\Microsoft\\VisualStudio\\14.0\\VC\\Runtimes\\X86"
-            },
-            {
-                "Reg": "SOFTWARE\\WOW6432Node\\Microsoft\\VisualStudio\\14.0\\VC\\Runtimes\\X86"
-            }
-        ]
-    },
-    "RumbleConfig": "https://thales201212.github.io/backend/digimon/cdn/rumble/live/RumbleConfig.json",
-    "MainUrl": [
-        {
-            "TypeName": "GSP",
-            "HomePageUrl": "https://discord.gg/EV5pfSGF",
-            "GameDownloadUrl": "https://discord.gg/vtNnzfSF",
-            "MainPageUrl": "https://thales201212.github.io/backend//main.html",
-            "BanerUrl": "https://thales201212.github.io/backend/banner.html",
-            "ClientIP": "127.0.0.1",
-            "ClientPort": "7605",
-            "Unlock": false
-
-        }
+  "ServerInfo": {
+    "Maintenance": false,
+    "Message": {
+      "Title": "",
+      "Msg": "The server is undergoing inspection or updates.\nConnect to <http://digitalmasters.world> for more information"
+    }
+  },
+  "PatchInfo": {
+    "DownloadUrl": "https://thales201212.github.io/backend//UpdatePatch/",
+    "MinPatchVersion": 1,
+    "PatchVersion": 8
+  },
+  "LanuncherInfo": {
+    "DownloadPath": "https://thales201212.github.io/backend//Launcher/",
+    "CurrentVersion": 3,
+    "ExeFileName": "DMLauncher.exe",
+    "RunExeFileName": "DMOLauncher.exe",
+    "VersionList": [
+      {
+        "Version": 1,
+        "DownloadFile": "Launcher_1.zip"
+      },
+      {
+        "Version": 2,
+        "DownloadFile": "Launcher_2.zip"
+      },
+      {
+        "Version": 3,
+        "DownloadFile": "Launcher_3.zip"
+      }
     ]
+  },
+  "UMInfo": {
+    "DownloadPath": "https://thales201212.github.io/backend//UpdatePatch/",
+    "CurrentVersion": 1,
+    "ExeFileName": "UpdateManager.exe",
+    "RunExeFileName": "DMLauncher.exe",
+    "VersionList": [
+      {
+        "Version": 1,
+        "DownloadFile": "UM_1.zip"
+      }
+    ]
+  },
+  "Redist": {
+    "Execute": "vcredist_x86.exe",
+    "Command": "/install /passive /norestart",
+    "Regstry": [
+      {
+        "Reg": "SOFTWARE\\Microsoft\\VisualStudio\\14.0\\VC\\Runtimes\\X86"
+      },
+      {
+        "Reg": "SOFTWARE\\WOW6432Node\\Microsoft\\VisualStudio\\14.0\\VC\\Runtimes\\X86"
+      }
+    ]
+  },
+  "RumbleConfig": "https://dmo.gameking.com/digimon/cdn/rumble/live/RumbleConfig.json",
+  "MainUrl": [
+    {
+      "TypeName": "GSP",
+      "HomePageUrl": "http://yourip/Launcher/digimon/cdn/dmo/Live/Configuration/Steam/index.html",
+      "GameDownloadUrl": "https://cdn.digitalmasters.world/digimon/cdn/dmo/Live/Installer/DMW_Installer_1.exe",
+      "MainPageUrl": "http://yourip/Launcher/digimon/cdn/dmo/Live/Configuration/Steam/index.html"
+    }
+  ],
+  "SupportLanguage": [
+    {
+      "TypeName": "English",
+      "Value": 102
+    },
+    {
+      "TypeName": "Español",
+      "Value": 106
+    }
+  ]
 }
