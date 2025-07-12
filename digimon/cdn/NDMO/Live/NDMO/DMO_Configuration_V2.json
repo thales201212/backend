@@ -14,8 +14,8 @@
   "LanuncherInfo": {
     "DownloadPath": "https://thales201212.github.io/backend//Launcher/",
     "CurrentVersion": 3,
-    "ExeFileName": "DMLauncher.exe",
-    "RunExeFileName": "DMLauncher.exe",
+    "ExeFileName": "DMLauncher",
+    "RunExeFileName": "DMLauncher",
     "VersionList": [
       {
         "Version": 1,
