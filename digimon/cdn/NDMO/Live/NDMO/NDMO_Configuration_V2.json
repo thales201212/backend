@@ -111,7 +111,7 @@
             "GameDownloadUrl": "https://discord.gg/vtNnzfSF",
             "MainPageUrl": "https://thales201212.github.io/backend//main.html",
             "BanerUrl": "https://thales201212.github.io/backend/banner.html",
-            "ClientIP": "144.217.123.20",
+            "ClientIP": "127.0.0.1",
             "ClientPort": "7605",
             "Unlock": false
 
