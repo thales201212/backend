@@ -9,7 +9,7 @@
     "PatchInfo": {
         "DownloadUrl": "https://thales201212.github.io/backend//UpdatePatch/",
         "MinPatchVersion": 1,
-        "PatchVersion": 3
+        "PatchVersion": 4
     },
     "LanuncherInfo": {
         "DownloadPath": "https://thales201212.github.io/backend//Launcher/",
